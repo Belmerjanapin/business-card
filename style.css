@@ -1,0 +1,44 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container
+{
+    display: block;
+    margin: 11rem auto 0 auto;
+    border: none;
+    width: 35rem;
+    background: goldenrod;
+    box-shadow: 0 10px grey;
+}
+.container-content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 0 40px 0;
+}
+.me-my-img
+{
+    border: 5px solid #fff;
+}
+.name,
+.country
+{
+    font-size: 25px;
+    font-weight: 600;
+}
+.job
+{
+    font-size: 18px;
+}
+.bio
+{
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+}
